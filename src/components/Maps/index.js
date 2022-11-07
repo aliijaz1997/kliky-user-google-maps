@@ -81,7 +81,7 @@ function Map({ users, coords, setPage, user, setUser, setCoords, setOpen }) {
                   setUser(u)
                 }}
                 icon={{
-                  url: user.image + "#custom_marker_red",
+                  url: u.image + "#custom_marker_red",
                   scaledSize: new window.google.maps.Size(70, 70)
                 }}
               ></Marker>
